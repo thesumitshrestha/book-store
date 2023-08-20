@@ -11,7 +11,7 @@ app.use('/books', router);
 
 mongoose
   .connect(
-    'mongodb+srv://admin:eHWq14QMSjq301hN@cluster0.yrnqi11.mongodb.net/bookStore?retryWrites=true&w=majority'
+    'mongodb+srv://admin:<password>@cluster0.yrnqi11.mongodb.net/bookStore?retryWrites=true&w=majority'
   )
   .then(() => console.log('CONNECTED TO DATABASE'))
   .then(() => {
